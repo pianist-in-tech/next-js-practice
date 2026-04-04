@@ -1,3 +1,5 @@
+// page.tsx exports React component, required for the route to be accessible. This page is home page associated with the route /.
+
 import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
