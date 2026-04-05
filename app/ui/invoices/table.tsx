@@ -5,6 +5,7 @@ import { formatDateToLocal, formatCurrency } from '@/app/lib/utils';
 import { fetchFilteredInvoices } from '@/app/lib/data';
 
 export default async function InvoicesTable({
+  // two props, query and currentPage, are passed to the fetchFilteredInvoices() function which returns the invoices that match the query.
   query,
   currentPage,
 }: {
